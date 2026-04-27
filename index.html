@@ -13,12 +13,18 @@
     />
   </head>
   <body>
-    <header class="flex p-[15px] lg:p-[15px_0] items-center max-w-300 m-auto justify-between">
+    <header
+      class="flex p-[15px] lg:p-[15px_0] items-center max-w-300 m-auto justify-between"
+    >
       <img src="src/Logo.png" alt="" />
       <div
         class="lg:w-[450px] lg:gap-0 gap-[50px] hidden lg:flex justify-between p-[5px_10px] border-[2px] border-[grey] rounded-[5px]"
       >
-        <input type="text" placeholder="Search bar" class="lg:w-[300px] outline-none" />
+        <input
+          type="text"
+          placeholder="Search bar"
+          class="lg:w-[300px] outline-none"
+        />
         <img src="src/Search.png" alt="" />
       </div>
       <nav class="hidden lg:flex items-center gap-[15px]">
@@ -30,19 +36,88 @@
         <h1 class="text-[#1C3554] text-[16px] font-medium">Become an Mentor</h1>
       </nav>
       <nav class="hidden lg:flex items-center gap-[15px]">
-        <button class="border border-[#1C3554] p-[10px_30px] rounded-[10px] text-[16px] font-semibold text-[#1C3554]">Login</button>
-        <button class="text-white bg-[#F72585] p-[10px_30px] rounded-[10px] font-semibold">Sign Up</button>
+        <button
+          class="border border-[#1C3554] p-[10px_30px] rounded-[10px] text-[16px] font-semibold text-[#1C3554]"
+        >
+          Login
+        </button>
+        <button
+          class="text-white bg-[#F72585] p-[10px_30px] rounded-[10px] font-semibold"
+        >
+          Sign Up
+        </button>
       </nav>
-      <p class="text-[24px] font-bold text-[#1C3554] lg:hidden ">☰</p>
+      <p class="text-[24px] font-bold text-[#1C3554] lg:hidden">☰</p>
     </header>
     <main>
-        <section class="flex max-w-300 m-auto justify-around flex-wrap gap-[50px] p-[20px] lg:p-[25px_0]">
-            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="#">Page1</a></h1>
-            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/">Page2</a></h1>
-            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/manupage3.html">Page3</a></h1>
-            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/">Page4</a></h1>
-            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/">Page5</a></h1>
-        </section>
+      <section
+        class="flex max-w-300 m-auto justify-around flex-wrap gap-[50px] p-[20px] lg:p-[25px_0]"
+      >
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="#">Page1</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/">Page2</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/manupage3.html">Page3</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/">Page4</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/">Page5</a>
+        </h1>
+      </section>
+      <section
+        class="max-w-300 m-auto flex flex-col lg:flex-row items-center justify-around bg-[#021934] p-[50px_20px] lg:p-[50px_20px_0] text-white"
+      >
+        <aside class="flex flex-col items-start gap-[15px] p-[20px]">
+          <h1 class="lg:text-[64px] text-[32px] font-bold lg:w-[600px]">
+            Find the Best Courses and Amazing Mentor
+          </h1>
+          <p class="text-[16px] lg:w-[640px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus
+          </p>
+          <div class="flex items-center bg-white p-[10px] rounded-[5px] lg:w-[600px] w-[350px] justify-between">
+            <nav class="flex items-center gap-[15px]">
+              <img src="src/Search.png" class="hidden lg:inline" alt="" />
+              <input
+                type="text"
+                placeholder="Type in the course you want to learn"
+                class="placeholder:text-[gray] lg:w-[350px] outline-none"
+              />
+            </nav>
+            <button
+              class="text-white bg-[#F72585] p-[10px_30px] rounded-[10px] font-semibold"
+            >
+              Search
+            </button>
+          </div>
+          <div class="flex  items-start lg:items-center gap-[50px]">
+            <nav class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start">
+              <img src="src/access_alarm.png" alt="" />
+              <p class="font-bold">Life Time Acces</p>
+            </nav>
+            <nav class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start">
+              <img src="src/user.png" alt="" />
+              <p class="font-bold">Life Time Acces</p>
+            </nav>
+            <nav class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start">
+              <img src="src/video_library.png" alt="" />
+              <p class="font-bold">Life Time Acces</p>
+            </nav>
+          </div>
+        </aside>
+        <aside style="background-image: url(src/Image\ Place\ Holder.png);" class="w-[375px] h-[500px] rounded-[10px] mt-[85px] flex flex-col items-start relative">
+          <img src="src/Bell Icon.png" alt="" class="relative left-[50px] top-[25px]" />
+          <img src="src/Verification Icon.png" alt="" class="absolute right-[10px] top-[175px]" />
+          <img src="src/Love Icon.png" alt="" class="relative left-[35px] top-[170px]"/>
+          <img src="src/Review.png" alt="" class="absolute right-0 bottom-[25px] right-[25px]"/>
+        </aside>
+      </section>
     </main>
   </body>
 </html>
