@@ -13,15 +13,15 @@
     />
   </head>
   <body>
-    <header class="flex p-[15px_0] items-center max-w-300 m-auto justify-between">
+    <header class="flex p-[15px] lg:p-[15px_0] items-center max-w-300 m-auto justify-between">
       <img src="src/Logo.png" alt="" />
       <div
-        class="lg:w-[450px] lg:gap-0 gap-[50px] flex justify-between p-[5px_10px] border-[2px] border-[grey] rounded-[5px]"
+        class="lg:w-[450px] lg:gap-0 gap-[50px] hidden lg:flex justify-between p-[5px_10px] border-[2px] border-[grey] rounded-[5px]"
       >
-        <input type="text" placeholder="Search bar" class="w-[]" />
+        <input type="text" placeholder="Search bar" class="lg:w-[300px] outline-none" />
         <img src="src/Search.png" alt="" />
       </div>
-      <nav class="flex items-center gap-[15px]">
+      <nav class="hidden lg:flex items-center gap-[15px]">
         <select class="text-[16px] font-bold text-[#1C3554]">
           <option>Category</option>
           <option>English course</option>
@@ -29,10 +29,20 @@
         </select>
         <h1 class="text-[#1C3554] text-[16px] font-medium">Become an Mentor</h1>
       </nav>
-      <nav class="flex items-center gap-[15px]">
+      <nav class="hidden lg:flex items-center gap-[15px]">
         <button class="border border-[#1C3554] p-[10px_30px] rounded-[10px] text-[16px] font-semibold text-[#1C3554]">Login</button>
         <button class="text-white bg-[#F72585] p-[10px_30px] rounded-[10px] font-semibold">Sign Up</button>
       </nav>
+      <p class="text-[24px] font-bold text-[#1C3554] lg:hidden ">☰</p>
     </header>
+    <main>
+        <section class="flex max-w-300 m-auto justify-around flex-wrap gap-[50px] p-[20px] lg:p-[25px_0]">
+            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="#">Page1</a></h1>
+            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/">Page2</a></h1>
+            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/manupage3.html">Page3</a></h1>
+            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/">Page4</a></h1>
+            <h1 class="text-[26px] font-bold text-[#1C3554]"><a href="src/">Page5</a></h1>
+        </section>
+    </main>
   </body>
 </html>
