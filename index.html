@@ -70,7 +70,7 @@
         </h1>
       </section>
       <section
-        class="max-w-300 m-auto flex flex-col lg:flex-row items-center justify-around bg-[#021934] p-[50px_20px] lg:p-[50px_20px_0] text-white"
+        class="max-w-300 m-auto flex flex-col lg:flex-row items-center rounded-[10px] justify-around bg-[#021934] p-[50px_20px] lg:p-[50px_20px_0] text-white"
       >
         <aside class="flex flex-col items-start gap-[15px] p-[20px]">
           <h1 class="lg:text-[64px] text-[32px] font-bold lg:w-[600px]">
@@ -81,7 +81,9 @@
             purus sit amet luctus venenatis, lectus magna fringilla urna,
             porttitor rhoncus
           </p>
-          <div class="flex items-center bg-white p-[10px] rounded-[5px] lg:w-[600px] w-[350px] justify-between">
+          <div
+            class="flex items-center bg-white p-[10px] rounded-[5px] lg:w-[600px] w-[350px] justify-between"
+          >
             <nav class="flex items-center gap-[15px]">
               <img src="src/Search.png" class="hidden lg:inline" alt="" />
               <input
@@ -96,28 +98,93 @@
               Search
             </button>
           </div>
-          <div class="flex  items-start lg:items-center gap-[50px]">
-            <nav class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start">
+          <div class="flex items-start lg:items-center gap-[50px]">
+            <nav
+              class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start"
+            >
               <img src="src/access_alarm.png" alt="" />
               <p class="font-bold">Life Time Acces</p>
             </nav>
-            <nav class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start">
+            <nav
+              class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start"
+            >
               <img src="src/user.png" alt="" />
               <p class="font-bold">Life Time Acces</p>
             </nav>
-            <nav class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start">
+            <nav
+              class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start"
+            >
               <img src="src/video_library.png" alt="" />
               <p class="font-bold">Life Time Acces</p>
             </nav>
           </div>
         </aside>
-        <aside style="background-image: url(src/Image\ Place\ Holder.png);" class="w-[375px] h-[500px] rounded-[10px] mt-[85px] flex flex-col items-start relative">
-          <img src="src/Bell Icon.png" alt="" class="relative left-[50px] top-[25px]" />
-          <img src="src/Verification Icon.png" alt="" class="absolute right-[10px] top-[175px]" />
-          <img src="src/Love Icon.png" alt="" class="relative left-[35px] top-[170px]"/>
-          <img src="src/Review.png" alt="" class="absolute right-0 bottom-[25px] right-[25px]"/>
+        <aside
+          style="background-image: url(src/Image\ Place\ Holder.png)"
+          class="w-[375px] h-[500px] rounded-[10px] mt-[85px] flex flex-col items-start relative"
+        >
+          <img
+            src="src/Bell Icon.png"
+            alt=""
+            class="relative left-[50px] top-[25px]"
+          />
+          <img
+            src="src/Verification Icon.png"
+            alt=""
+            class="absolute right-[10px] top-[175px]"
+          />
+          <img
+            src="src/Love Icon.png"
+            alt=""
+            class="relative left-[35px] top-[170px]"
+          />
+          <img
+            src="src/Review.png"
+            alt=""
+            class="absolute right-0 bottom-[25px] right-[25px]"
+          />
         </aside>
       </section>
     </main>
+    <footer class="bg-[#021934] flex flex-col gap-[50px] text-white max-w-300 m-auto mt-[50px] p-[25px] lg:p-[50px] pb-[25px] rounded-[10px]">
+      <div class="flex flex-col gap-[25px] lg:flex-row lg:w-[1100px] justify-between">
+        <nav class="flex flex-col items-start gap-[25px]">
+          <img src="src/LogoFooter.png" alt="" />
+          <p class="lg:w-[500px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+            tristique placerat eleifend aliquam pellentesque facilisis ultrices.
+            Imperdiet mus urna egestas at tellus.
+          </p>
+        </nav>
+        <nav class="flex flex-col lg:flex-row items-start gap-[25px]  lg:gap-[50px]">
+          <article class="flex flex-col items-start gap-[10px]">
+            <h1 class="text-[24px]">About</h1>
+            <p>About us</p>
+            <p>Courses</p>
+            <p>Mentor</p>
+            <p>Contact Us</p>
+          </article>
+          <article class="flex flex-col items-start gap-[10px]">
+            <h1 class="text-[24px]">Support</h1>
+            <p>Careers</p>
+            <p>Help & Support</p>
+            <p>Blog</p>
+          </article>
+          <article class="flex flex-col items-start gap-[10px]">
+            <h1 class="text-[24px]">Company</h1>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Code of Conduct</p>
+          </article>
+        </nav>
+      </div>
+      <div class="flex flex-col lg:flex-row lg:w-[1100px]  gap-[15px] justify-between">
+        <nav class="flex flex-col lg:flex-row items-center gap-[15px] lg:gap-[50px]">
+          <p>Privacy Policy</p>
+          <p>Terms and Condition</p>
+        </nav>
+        <p class="text-center lg:text-start">@2020 TanahAir Studio. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
