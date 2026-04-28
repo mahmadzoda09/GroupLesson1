@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+      class="flex p-[15px] lg:p-[15px_0] items-center max-w-300 m-auto justify-between"
+    >
+      <img src="src/Logo.png" alt="" />
+      <div
+        class="lg:w-[450px] lg:gap-0 gap-[50px] hidden lg:flex justify-between p-[5px_10px] border-[2px] border-[grey] rounded-[5px]"
+      >
+        <input
+          type="text"
+          placeholder="Search bar"
+          class="lg:w-[300px] outline-none"
+        />
+        <img src="src/Search.png" alt="" />
+      </div>
+      <nav class="hidden lg:flex items-center gap-[15px]">
+        <select class="text-[16px] font-bold text-[#1C3554]">
+          <option>Category</option>
+          <option>English course</option>
+          <option>Russian course</option>
+        </select>
+        <h1 class="text-[#1C3554] text-[16px] font-medium">Become an Mentor</h1>
+      </nav>
+      <nav class="hidden lg:flex items-center gap-[15px]">
+        <button
+          class="border border-[#1C3554] p-[10px_30px] rounded-[10px] text-[16px] font-semibold text-[#1C3554]"
+        >
+          Login
+        </button>
+        <button
+          class="text-white bg-[#F72585] p-[10px_30px] rounded-[10px] font-semibold"
+        >
+          Sign Up
+        </button>
+      </nav>
+      <p class="text-[24px] font-bold text-[#1C3554] lg:hidden">☰</p>
+    </header>
+    <main>
+      <section
+        class="flex max-w-300 m-auto justify-around flex-wrap gap-[50px] p-[20px] lg:p-[25px_0]"
+      >
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="#">Page1</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/">Page2</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/manupage3.html">Page3</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/">Page4</a>
+        </h1>
+        <h1 class="text-[26px] font-bold text-[#1C3554]">
+          <a href="src/">Page5</a>
+        </h1>
+      </section>
+      <section
+        class="max-w-300 m-auto flex flex-col lg:flex-row items-center rounded-[10px] justify-around bg-[#021934] p-[50px_20px] lg:p-[50px_20px_0] text-white"
+      >
+        <aside class="flex flex-col items-start gap-[15px] p-[20px]">
+          <h1 class="lg:text-[64px] text-[32px] font-bold lg:w-[600px]">
+            Find the Best Courses and Amazing Mentor
+          </h1>
+          <p class="text-[16px] lg:w-[640px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus
+          </p>
+          <div
+            class="flex items-center bg-white p-[10px] rounded-[5px] lg:w-[600px] w-[350px] justify-between"
+          >
+            <nav class="flex items-center gap-[15px]">
+              <img src="src/Search.png" class="hidden lg:inline" alt="" />
+              <input
+                type="text"
+                placeholder="Type in the course you want to learn"
+                class="placeholder:text-[gray] lg:w-[350px] outline-none"
+              />
+            </nav>
+            <button
+              class="text-white bg-[#F72585] p-[10px_30px] rounded-[10px] font-semibold"
+            >
+              Search
+            </button>
+          </div>
+          <div class="flex items-start lg:items-center gap-[50px]">
+            <nav
+              class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start"
+            >
+              <img src="src/access_alarm.png" alt="" />
+              <p class="font-bold">Life Time Acces</p>
+            </nav>
+            <nav
+              class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start"
+            >
+              <img src="src/user.png" alt="" />
+              <p class="font-bold">Life Time Acces</p>
+            </nav>
+            <nav
+              class="flex lg:items-center gap-[10px] p-[20px_0px] flex-col lg:flex-row items-start"
+            >
+              <img src="src/video_library.png" alt="" />
+              <p class="font-bold">Life Time Acces</p>
+            </nav>
+          </div>
+        </aside>
+        <aside
+          style="background-image: url(src/Image\ Place\ Holder.png)"
+          class="w-[375px] h-[500px] rounded-[10px] mt-[85px] flex flex-col items-start relative"
+        >
+          <img
+            src="src/Bell Icon.png"
+            alt=""
+            class="relative left-[50px] top-[25px]"
+          />
+          <img
+            src="src/Verification Icon.png"
+            alt=""
+            class="absolute right-[10px] top-[175px]"
+          />
+          <img
+            src="src/Love Icon.png"
+            alt=""
+            class="relative left-[35px] top-[170px]"
+          />
+          <img
+            src="src/Review.png"
+            alt=""
+            class="absolute right-0 bottom-[25px] right-[25px]"
+          />
+        </aside>
+      </section>
+      <section
+        class="max-w-300 m-auto items-center flex flex-col p-[50px_20px] gap-[50px]"
+      >
+        <h1 class="text-[#1C3554] text-[32px] lg:text-[48px] font-bold">
+          Trending Courses
+        </h1>
+        <div
+          class="lg:w-[950px] flex flex-col lg:flex-row gap-[25px] lg:gap-0 justify-between items-center"
+        >
+          <p class="bg-[#F72585] text-white p-[10px_60px] rounded-[10px]">
+            All
+          </p>
+          <p class="text-[#AAAAAA]">Business</p>
+          <p class="text-[#AAAAAA]">Art & Design</p>
+          <p class="text-[#AAAAAA]">Development</p>
+          <p class="text-[#AAAAAA]">Marketing</p>
+        </div>
+        <div
+          class="lg:w-[1200px] hidden lg:flex justify-between gap-[25px] ml-[-75px]"
+        >
+          <div
+            class="flex flex-col items-center shadow-2xl rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                UI/UX Design
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                Interpersonal skills - work better with others!
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$384
+              </p>
+            </nav>
+          </div>
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                Web Developer
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                How to become an Expert Web Developer
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$735
+              </p>
+            </nav>
+          </div>
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                UX Research
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                User Experience Design Essentials
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$826
+              </p>
+            </nav>
+          </div>
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                3D Design
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                Creating 3D Modelling in Blender
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$710
+              </p>
+            </nav>
+          </div>
+        </div>
+        <div
+          class="lg:w-[1200px] lg:flex justify-between gap-[25px] ml-[-75px] hidden"
+        >
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                Public Speaking
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                Interpersonal skills - work better with others!
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$384
+              </p>
+            </nav>
+          </div>
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                UI/UX Design
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                How to become an Expert Web Developer
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$758
+              </p>
+            </nav>
+          </div>
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                3D Design
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                Creating 3D Modelling in Blender
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$973
+              </p>
+            </nav>
+          </div>
+          <div
+            class="lg:flex flex-col items-center rounded-[10px] lg:w-[300px] pt-[6px]"
+          >
+            <nav
+              class="bg-[#CCCCCC] rounded-[5px] relative w-[260px] h-[200px]"
+            >
+              <p
+                class="text-white bg-[#4586D6] p-[5px_25px] rounded-[5px] absolute text-center bottom-[-15px] left-[60px]"
+              >
+                UI/UX Design
+              </p>
+            </nav>
+            <nav class="p-[25px] ml-[10px] flex flex-col items-start gap-[6px]">
+              <h2 class="lg:w-[260px] text-[#1C3554] text-[16px] font-medium">
+                Interpersonal skills - work better with others!
+              </h2>
+              <p class="text-[#F72585] text-[12px] font-semibold">
+                Tanah Air Team
+              </p>
+              <img src="src/Rating.png" alt="" />
+              <p class="text-[24px] font-medium text-[#1C3554]">
+                <span class="line-through text-[#CCCCCC] text-[16px] pr-[10px]"
+                  >$640</span
+                >$273
+              </p>
+            </nav>
+          </div>
+        </div>
+        <button class="bg-[#F72585] text-white p-[10px_65px] rounded-[5px]">
+          More Courses
+        </button>
+      </section>
+      <section class="max-w-300 m-auto flex flex-col gap-[50px] items-start">
+        <h1
+          class="lg:self-start self-center text-[48px] font-bold text-[#1C3554]"
+        >
+          Top Categories
+        </h1>
+        <div
+          class="lg:w-300 flex flex-col lg:flex-row items-center text-center lg:ml-[0] ml-[50px] gap-[25px]"
+        >
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Art & Design
+            </p>
+          </nav>
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Business
+            </p>
+          </nav>
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Copy Writing
+            </p>
+          </nav>
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Marketing
+            </p>
+          </nav>
+        </div>
+        <div
+          class="lg:w-300 flex flex-col lg:flex-row items-center text-center lg:ml-[0] ml-[50px] gap-[25px]"
+        >
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Programming
+            </p>
+          </nav>
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Photography
+            </p>
+          </nav>
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Videography
+            </p>
+          </nav>
+          <nav
+            class="w-[300px] h-[350px] bg-[#666666] rounded-[10px] relative flex justify-center text-white items-end"
+          >
+            <p
+              class="text-[24px] font-medium bottom-[25px] absolute text-center"
+            >
+              Personal <br />Development
+            </p>
+          </nav>
+        </div>
+      </section>
+      <section
+        class="flex flex-col lg:flex-row gap-[25px] items-center justify-between max-w-300 m-auto p-[50px_20px] lg:p-[50px_0]"
+      >
+        <div class="flex flex-col items-center gap-1.5">
+          <img src="src/video_library1.png" alt="" />
+          <h1 class="text-[#1C3554] text-[32px] font-bold">10.000+</h1>
+          <p class="text-[#1C3554] text-[24px]">Courses</p>
+        </div>
+        <div class="flex flex-col items-center gap-1.5">
+          <img src="src/Container.png" alt="" />
+          <h1 class="text-[#1C3554] text-[32px] font-bold">50.000+</h1>
+          <p class="text-[#1C3554] text-[24px]">Active Students</p>
+        </div>
+        <div class="flex flex-col items-center gap-1.5">
+          <img src="src/icon.png" alt="" />
+          <h1 class="text-[#1C3554] text-[32px] font-bold">1000+</h1>
+          <p class="text-[#1C3554] text-[24px]">Active Mentor</p>
+        </div>
+        <div class="flex flex-col items-center gap-1.5">
+          <img src="src/flag.png" alt="" />
+          <h1 class="text-[#1C3554] text-[32px] font-bold">180</h1>
+          <p class="text-[#1C3554] text-[24px]">Countries</p>
+        </div>
+      </section>
+      <section
+        class="max-w-300 m-auto flex flex-col-reverse lg:flex-row p-[20px] items-center gap-[100px]"
+      >
+        <img src="src/Image Place Holder.png" alt="" />
+        <aside class="flex flex-col items-start gap-[25px]">
+          <h1 class="text-[#1C3554] text-[48px] font-bold">Become an Mentor</h1>
+          <p class="text-[#808080]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eu
+            in orci, nunc amet libero. Nam scelerisque vestibulum bibendum a
+            turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis non
+            id proin elit placerat. Lectus morbi amet et aliquam magna mauris.
+          </p>
+          <p class="text-[#808080]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eu
+            in orci, nunc amet libero. Nam scelerisque vestibulum bibendum a
+            turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis non
+            id proin elit placerat. Lectus morbi amet et aliquam magna mauris.
+          </p>
+          <button class="bg-[#F72585] text-white p-[15px_45px] rounded-[8px]">
+            Start Teaching
+          </button>
+        </aside>
+      </section>
+      <section class="max-w-300 m-auto flex flex-col-reverse lg:flex-row items-center gap-[50px] p-[50px_20px] lg:p-[50px_0]">
+        <img src="src/ArrowLeft.png" class="lg:inline hidden" alt="" />
+        <div class="flex-col flex items-start relative">
+          <img src="src/ImagePlaceholder.png" class="relative" />
+          <img
+            src="src/Accent.png"
+            class="absolute bottom-[-40px] left-[-40px]"
+          />
+        </div>
+        <div class="flex flex-col items-start gap-[5px]">
+          <h1 class="text-[#1C3554] text-[32px] lg:w-[670px]">
+            After studying here I gained new knowledge and insights. The mentor
+            was very friendly and guided me to get the knowledge I wanted. Thank
+            you!
+          </h1>
+          <br>
+          <p class="text-[#1C3554] font-medium text-[24px]">KecekArif</p>
+          <p class="text-[14px] text-[#808080]">Yang punya Surabaya nanti kapan - kapan tapi</p>
+        </div>
+        <img src="src/ArrowRight.png " class="lg:inline hidden" alt="">
+      </section>
+      <section class="max-w-300 m-auto flex flex-col gap-[50px] lg:p-[100px_0] p-[75px_20px] items-center text-center">
+        <h1 class="text-[#1C3554] text-[48px] font-bold">Trusted by Company</h1>
+        <div class="flex items-center flex-wrap gap-[50px] text-center justify-center">
+            <img src="src/05.png" alt="">
+            <img src="src/logoipsujm.png" alt="">
+            <img src="src/02.png" alt="">
+            <img src="src/05.png" alt="">
+            <img src="src/02.png" alt="">
+            <img src="src/logoipsujm.png" alt="">
+            <img src="src/01.png" class="hidden lg:inline" alt="">
+        </div>
+      </section>
+      <section class="max-w-300 m-auto flex flex-col items-start gap-[50px]">
+        <h1 class="text-[#1C3554] lg:text-[48px] text-[32px] font-bold ">The Latest Blog</h1>
+        <div class="flex flex-col lg:flex-row p-[20px] lg:p-[0] items-center gap-[25px] ">
+            <nav class="flex flex-col items-center shadow-2xl p-[10px] rounded-[10px]">
+                <img src="src/Placeholder.png" alt="">
+                <nav class="flex flex-col items-start gap-[10px] p-[10px]">
+                    <article class="flex items-center gap-[25px]">
+                        <p class="text-[#808080] text-[14px]">3, Mei 2021</p>
+                        <p class="text-[#808080] text-[14px]">3 min read</p>
+                    </article>
+                    <h1 class="text-[#1C3554] text-[24px] font-bold lg:w-[350px]">10 graphic design trends to get you inspired in 2021</h1>
+                    <p class="text-[#808080] lg:w-[350px]">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
+                    <button class="text-[#F72585] font-medium">Read More</button>
+                </nav>
+            </nav>
+            <nav class="flex flex-col items-center shadow-2xl p-[10px] rounded-[10px]">
+                <img src="src/Placeholder.png" alt="">
+                <nav class="flex flex-col items-start gap-[10px] p-[10px]">
+                    <article class="flex items-center gap-[25px]">
+                        <p class="text-[#808080] text-[14px]">3, Mei 2021</p>
+                        <p class="text-[#808080] text-[14px]">3 min read</p>
+                    </article>
+                    <h1 class="text-[#1C3554] text-[24px] font-bold lg:w-[350px]">Right Triangle Trigonometry Explained</h1>
+                    <p class="text-[#808080] lg:w-[350px]">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
+                    <button class="text-[#F72585] font-medium">Read More</button>
+                </nav>
+            </nav>
+            <nav class="flex flex-col items-center shadow-2xl p-[10px] rounded-[10px]">
+                <img src="src/Placeholder.png" alt="">
+                <nav class="flex flex-col items-start gap-[10px] p-[10px]">
+                    <article class="flex items-center gap-[25px]">
+                        <p class="text-[#808080] text-[14px]">3, Mei 2021</p>
+                        <p class="text-[#808080] text-[14px]">3 min read</p>
+                    </article>
+                    <h1 class="text-[#1C3554] text-[24px] font-bold lg:w-[350px]">2 Reasons Why You’re Confusing Chemistry </h1>
+                    <p class="text-[#808080] lg:w-[350px]">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod.</p>
+                    <button class="text-[#F72585] font-medium">Read More</button>
+                </nav>
+            </nav>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-[#021934] flex flex-col gap-[50px] text-white max-w-350 m-auto mt-[50px] lg:p-[50px_50px_25px_50px] p-[20px] rounded-[10px]"
+    >
+      <div
+        class="flex flex-col gap-[25px] lg:flex-row lg:w-[1200px] justify-between"
+      >
+        <nav class="flex flex-col items-start gap-[25px]">
+          <img src="src/LogoFooter.png" alt="" />
+          <p class="lg:w-[500px]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+            tristique placerat eleifend aliquam pellentesque facilisis ultrices.
+            Imperdiet mus urna egestas at tellus.
+          </p>
+        </nav>
+        <nav
+          class="flex flex-col lg:flex-row items-start gap-[25px] lg:gap-[50px]"
+        >
+          <article class="flex flex-col items-start gap-[10px]">
+            <h1 class="text-[24px]">About</h1>
+            <p>About us</p>
+            <p>Courses</p>
+            <p>Mentor</p>
+            <p>Contact Us</p>
+          </article>
+          <article class="flex flex-col items-start gap-[10px]">
+            <h1 class="text-[24px]">Support</h1>
+            <p>Careers</p>
+            <p>Help & Support</p>
+            <p>Blog</p>
+          </article>
+          <article class="flex flex-col items-start gap-[10px]">
+            <h1 class="text-[24px]">Company</h1>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Code of Conduct</p>
+          </article>
+        </nav>
+      </div>
+      <div
+        class="flex flex-col lg:flex-row lg:w-[1200px] gap-[15px] justify-between"
+      >
+        <nav
+          class="flex flex-col lg:flex-row items-center gap-[15px] lg:gap-[50px]"
+        >
+          <p>Privacy Policy</p>
+          <p>Terms and Condition</p>
+        </nav>
+        <p class="text-center lg:text-start">
+          @2020 TanahAir Studio. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
